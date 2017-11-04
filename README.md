@@ -1,8 +1,8 @@
 # PHYS220 CW 10 
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Jarod Penniman, Jared Love**
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-10-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-10-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-10-jaroed.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-10-jaroed)
 
 ## Specification
 
@@ -16,7 +16,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**The assignment was a nice refresher on random number generators, and a creative way of obtaining approximations.  My question would be the following...  everytime someone runs the test function, it in turn runs the code module.  The code module does not have a set output, since it uses a random number generator.  To be safe, I lowered the accuracy needed for the test to pass.  Is there a way to ensure an accurate result and trust that the test will not fail (other than trusting mathematics and probabilities)?  It is a possibility, after all, that the function could randomly select all points above the curve and thus estimate e=0, with a perfectly fine code module.  In this case the test would fail even though the code is good.  A very very low chance but still worth asking!**
 
 ## Honor Pledge
 
@@ -27,4 +27,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Jarod Penniman, Jared Love**
